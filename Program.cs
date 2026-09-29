@@ -10,19 +10,4 @@ Console.WriteLine($"Today is {DateTime.Now.DayOfWeek}\n");
 Console.Write("Enter the C value: ");
 float c = float.Parse(Console.ReadLine()!);
 float f = c*9/5+32;
-
-Console.WriteLine($"Your fahrenheit value is: {f}");
-
-
-
-
-Console.Write("Enter the C value: ");
-
-float ce = float.Parse(Console.ReadLine()!);
-
-Console.WriteLine($"You entered: {ce}");
-
-float fe = ce * 9 / 5 + 32;
-
-Console.WriteLine($"Your fahrenheit value is: {fe}");
-
+Console.WriteLine($"Your fahrenheit value is: {f}F ");
