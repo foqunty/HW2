@@ -1,11 +1,22 @@
 ﻿Console.WriteLine("Hello C#");
-Console.WriteLine(" Sedat Çoban");
+Console.WriteLine("Sedat Çoban");
 Console.WriteLine("Computer Engineering");
-Console.WriteLine("2nd Year");
+Console.WriteLine("2nd Year\n\n");
+
+
+
+
+
+
+
+
 Console.WriteLine(DateTime.Now);
 Console.WriteLine(DateTime.Now.Year);
 Console.WriteLine(DateTime.Now.ToString("dd.MM.yyyy"));
-Console.WriteLine($"Today is {DateTime.Now.DayOfWeek}\n");
+Console.WriteLine($"Today is {DateTime.Now.DayOfWeek}\n\n");
+
+
+
 
 
 
