@@ -7,6 +7,9 @@ Console.WriteLine(DateTime.Now.Year);
 Console.WriteLine(DateTime.Now.ToString("dd.MM.yyyy"));
 Console.WriteLine($"Today is {DateTime.Now.DayOfWeek}\n");
 
+
+
+
 Console.Write("Enter the C value: ");
 float c = float.Parse(Console.ReadLine()!);
 float f = c*9/5+32;
