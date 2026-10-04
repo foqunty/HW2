@@ -23,5 +23,6 @@ Console.WriteLine($"Today is {DateTime.Now.DayOfWeek}\n\n");
 
 Console.Write("Enter the C value: ");
 float c = float.Parse(Console.ReadLine()!);
+Console.WriteLine($"You entered: {c}C");
 float f = c*9/5+32;
 Console.WriteLine($"Your fahrenheit value is: {f}F ");
